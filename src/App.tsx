@@ -1,6 +1,14 @@
+import Navbar from "./components/Navbar";
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-white">Hello world!</h1>
+    <main className="max-w-7xl mx-auto">
+      <Navbar />
+      <Hero />
+      <About />
+    </main>
   );
 }
 
